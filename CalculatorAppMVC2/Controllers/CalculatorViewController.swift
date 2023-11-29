@@ -8,12 +8,29 @@
 import UIKit
 
 class CalculatorViewController: UIViewController {
-
+    
+    @IBOutlet var customView: CalculatorView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
+        
     }
 
+    func numberWillPresent() -> numberToBeCalculatePresentation {
+    
+        var stringNumber = ""
+        
+        for number in customView.clickedNumbers {
+            stringNumber.append(String(number))
+        }
+        
+        let numberToBeCalculationPresentation = numberToBeCalculatePresentation(numberToBeCalculate: stringNumber)
+        
+        return numberToBeCalculationPresentation
+        
+    }
 
 }
 

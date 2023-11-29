@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+struct resultPresentation {
+    
+    let result: String
+    
+}
+
+protocol calculatorViewProtocol {
+    
+    func updateResult()
+    func updateNumberToBeCalculate()
+    
+}

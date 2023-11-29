@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct numberToBeCalculatePresentation {
+    
+    let numberToBeCalculate: String
+    
+}
