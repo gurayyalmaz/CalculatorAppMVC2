@@ -15,7 +15,7 @@ struct resultPresentation {
 
 protocol calculatorViewProtocol {
     
-    func updateResult()
-    func updateNumberToBeCalculate()
+    func updateResult(_ result: resultPresentation)
+    func updateNumberToBeCalculate(_ numberWillPresent: numberToBeCalculatePresentation)
     
 }

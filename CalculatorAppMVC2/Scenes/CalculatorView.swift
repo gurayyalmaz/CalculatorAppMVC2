@@ -11,75 +11,24 @@ class CalculatorView: UIView {
     
     // variables
     
-    var clickedNumbers: [Int] = []
+    var numberWillAppear = numberToBeCalculatePresentation(numberToBeCalculate: "")
     
     // Outlets
     
     @IBOutlet weak var resultLabel: UILabel!
-    
-    // Actions
-    
-    @IBAction func button1Clicked(_ sender: Any) {
-        clickedNumbers.append(1)
-        updateNumberToBeCalculate()
-    }
-    
-    @IBAction func button2Clicked(_ sender: Any) {
-        clickedNumbers.append(2)
-        updateNumberToBeCalculate()
-    }
-    
-    @IBAction func button3Clicked(_ sender: Any) {
-        clickedNumbers.append(3)
-        updateNumberToBeCalculate()
-    }
-    
-    @IBAction func button4Clicked(_ sender: Any) {
-        clickedNumbers.append(4)
-        updateNumberToBeCalculate()
-    }
-    
-    @IBAction func button5Clicked(_ sender: Any) {
-        clickedNumbers.append(5)
-        updateNumberToBeCalculate()
-    }
-    
-    @IBAction func button6Clicked(_ sender: Any) {
-        clickedNumbers.append(6)
-        updateNumberToBeCalculate()
-    }
-    
-    @IBAction func button7Clicked(_ sender: Any) {
-        clickedNumbers.append(7)
-        updateNumberToBeCalculate()
-    }
-    
-    @IBAction func button8Clicked(_ sender: Any) {
-        clickedNumbers.append(8)
-        updateNumberToBeCalculate()
-    }
-    
-    @IBAction func button9Clicked(_ sender: Any) {
-        clickedNumbers.append(9)
-        updateNumberToBeCalculate()
-    }
-    
-    @IBAction func button0Clicked(_ sender: Any) {
-        clickedNumbers.append(0)
-        updateNumberToBeCalculate()
-    }
-    
+
 }
 
 extension CalculatorView: calculatorViewProtocol {
     
-    func updateResult() {
-        
+    func updateNumberToBeCalculate(_ numberWillPresent: numberToBeCalculatePresentation) {
+        resultLabel.text = numberWillPresent.numberToBeCalculate
+        print("calisti")
     }
     
-    func updateNumberToBeCalculate() {
-        let numberToBeCalculate = CalculatorViewController().numberWillPresent()
-        resultLabel.text = numberToBeCalculate.numberToBeCalculate
+    func updateResult(_ result: resultPresentation) {
+        resultLabel.text = result.result
     }
     
 }
+

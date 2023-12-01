@@ -72,9 +72,6 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="7">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="31"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="button7Clicked:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="2hh-uQ-cI7"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGV-mT-5Fv">
                                                 <rect key="frame" x="98.333333333333343" y="0.0" width="98.333333333333343" height="113.66666666666667"/>
@@ -82,9 +79,6 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="8">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="31"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="button8Clicked:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="tbQ-gg-fxq"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="reg-Bh-LwG">
                                                 <rect key="frame" x="196.66666666666666" y="0.0" width="97.999999999999972" height="113.66666666666667"/>
@@ -92,9 +86,6 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="9">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="31"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="button9Clicked:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="gQ1-sM-2iz"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRs-Ay-OoG">
                                                 <rect key="frame" x="294.66666666666669" y="0.0" width="98.333333333333314" height="113.66666666666667"/>
@@ -118,7 +109,7 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="31"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="button4Clicked:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="aNf-38-PV8"/>
+                                                    <action selector="button4Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JbC-Ql-5bU"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ziz-Ie-MGp">
@@ -128,7 +119,7 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="31"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="button5Clicked:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="w7v-XG-0Mf"/>
+                                                    <action selector="button5Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4K4-Ux-Zw5"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jzc-ja-gld">
@@ -137,9 +128,6 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="6">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="31"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="button6Clicked:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="2wV-DI-uzF"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PvR-ZO-mao">
                                                 <rect key="frame" x="294.66666666666669" y="0.0" width="98.333333333333314" height="114"/>
@@ -164,7 +152,7 @@
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="button1:" destination="pMM-25-cJh" eventType="touchUpInside" id="KSv-oA-mqw"/>
-                                                    <action selector="button1Clicked:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="b4H-4x-nf4"/>
+                                                    <action selector="button1Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ytg-pm-l18"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgu-sC-ihK">
@@ -174,7 +162,7 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="31"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="button2Clicked:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="PHf-wo-7e7"/>
+                                                    <action selector="button2Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UP7-Wl-LG4"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKa-hs-HbL">
@@ -184,7 +172,7 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="31"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="button3Clicked:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="wIv-j2-4fq"/>
+                                                    <action selector="button3Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hMC-j2-MQl"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWm-l2-Ve8">
@@ -208,9 +196,6 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="0">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="31"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="button0Clicked:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="vLH-rU-iSx"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sjZ-aM-hEi">
                                                 <rect key="frame" x="196.66666666666666" y="0.0" width="97.999999999999972" height="114"/>
@@ -242,10 +227,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4me-Nt-FMR">
                                 <rect key="frame" x="0.0" y="58.999999999999986" width="393" height="189.66666666666663"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbD-E0-9RB">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbD-E0-9RB">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="189.66666666666666"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -275,7 +260,7 @@
                         </connections>
                     </view>
                     <connections>
-                        <outlet property="customView" destination="8bC-Xf-vdC" id="uQX-mD-G2u"/>
+                        <outlet property="customView" destination="8bC-Xf-vdC" id="vMv-hJ-m7K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
